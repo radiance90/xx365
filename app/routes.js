@@ -8,7 +8,7 @@ module.exports = function(app, passport) {
 
 	app.use('/api', router);
 
-	app.get('*', function(req. res) {
+	app.get('*', function(req, res) {
 		res.sendfile('./public/views.index.html');
 	});
 }

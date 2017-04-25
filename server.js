@@ -49,4 +49,4 @@ app.listen(port);
 console.log("server listening on port " + port);
 
 // export
-exports = modules.exports = app;
+exports = module.exports = app;
